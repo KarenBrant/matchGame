@@ -1,9 +1,9 @@
-#Matchgame (Title: Clicky Game)
-*A game in which you try not to click on the same image twice.
-*Developer:  Karen Brant
-*Languages:  React.js
-*Instructions:  Click each picture once and get a point for each click.  But don't click the same picture twice or you will *end the game.
-*Heroku Link:
+# Matchgame (Title: Clicky Game)
+* A game in which you try not to click on the same image twice.
+* Developer:  Karen Brant
+* Languages:  React.js
+* Instructions:  Click each picture once and get a point for each click.  But don't click the same picture twice or you will * end the game.
+* Heroku Link:
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
