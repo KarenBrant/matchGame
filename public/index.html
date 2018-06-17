@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Match Game React App</title>
+    <style type="text/css">
+      .card {
+        background: #fff;
+        border-radius: 2px;
+        height: 325px;
+        margin: 1rem;
+        position: relative;
+        width: 325px;
+        -webkit-box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+                box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+        text-align: left;
+      }
+
+      .card > .img-container {
+        height: 60%;
+        overflow: hidden;
+        text-align: center;
+        background:#6CADDC;
+      }
+      .card > .img-container > img {
+        width: 60%
+      }
+
+      .card > .content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 15px;
+      }
+
+      .card > .content > ul {
+        list-style-type: none;
+      }
+
+      .card > .content > ul > li {
+        margin-top: 18px;
+      }
+
+      .card > .remove {
+        color: #ff1744;
+        font-size: 48px;
+        position: absolute;
+        top: -20px;
+        right: 5px;
+        cursor: pointer;
+      }
+
+      .card > .remove:hover {
+        color: #d50000;
+      }
+
+    </style>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+      <!-- <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="navbar-brand" href="#">Clicky Game</a>
+              </li>
+              <li class="nav-item active">Click an image to begin!</li>
+              <li class="nav-item active">
+                "Score: "
+                "0"
+                " | Top Score: "
+                "0"
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div> -->
+        <!-- <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+      </nav>
+          
+      <header class="jumbotron">
+        <h1>Clicky Game!</h1>
+        <h2>Click on an image to earn points, but don't click on any more than once!</h2>
+      </header>
+      </div> -->
+
+
+      <div class="wrapper">
+        <div class="card">
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2013/07/13/11/44/penguin-158551__480.png" alt="Penguin">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2017/03/30/06/29/egg-2187345__480.png" alt="Duck">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2017/05/16/10/10/shark-2317422__480.png" alt="Shark">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2013/07/12/17/39/rat-152162__480.png" alt="Mouse">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2015/10/16/01/08/buy-me-a-coffee-990304__480.jpg" alt="Dog">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2012/04/12/22/04/goldfish-30837__480.png" alt="Fish">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2014/10/02/15/41/loin-470302__480.png" alt="Lion">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2013/07/12/16/53/turtle-151431__480.png" alt="Turtle">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2014/04/03/00/35/giraffe-308771__480.png" alt="Giraffe">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2014/04/03/00/35/elephant-308776__480.png" alt="Elephant">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2014/10/04/22/29/monkey-474147__480.png" alt="Monkey">
+          </div>
+          <div class="img-container">
+            <img src="https://cdn.pixabay.com/photo/2012/05/07/02/56/hippo-47726__480.png" alt="Hippo">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+  </body>
+</html>

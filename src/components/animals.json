@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "penguin",
+      "image": "https://cdn.pixabay.com/photo/2013/07/13/11/44/penguin-158551__480.png"
+    },
+    {
+      "id": 2,
+      "name": "duck",
+      "image": "https://cdn.pixabay.com/photo/2017/03/30/06/29/egg-2187345__480.png"
+    },
+    {
+      "id": 3,
+      "name": "shark",
+      "image": "https://cdn.pixabay.com/photo/2017/05/16/10/10/shark-2317422__480.png"
+    },
+    {
+      "id": 4,
+      "name": "rat",
+      "image": "https://cdn.pixabay.com/photo/2013/07/12/17/39/rat-152162__480.png"
+    },
+    {
+      "id": 5,
+      "name": "dog",
+      "image": "https://cdn.pixabay.com/photo/2015/10/16/01/08/buy-me-a-coffee-990304__480.jpg"
+    },
+    {
+      "id": 6,
+      "name": "fish",
+      "image": "https://cdn.pixabay.com/photo/2012/04/12/22/04/goldfish-30837__480.png"
+    },
+    {
+      "id": 7,
+      "name": "lion",
+      "image": "https://cdn.pixabay.com/photo/2014/10/02/15/41/loin-470302__480.png"
+    },
+    {
+      "id": 8,
+      "name": "turtle",
+      "image": "https://cdn.pixabay.com/photo/2013/07/12/16/53/turtle-151431__480.png"
+    },
+    {
+      "id": 9,
+      "name": "giraffe",
+      "image": "https://cdn.pixabay.com/photo/2014/04/03/00/35/giraffe-308771__480.png"
+    },
+    {
+      "id": 10,
+      "name": "elephant",
+      "image": "https://cdn.pixabay.com/photo/2014/04/03/00/35/elephant-308776__480.png"
+    },
+    {
+      "id": 11,
+      "name": "monkey",
+      "image": "https://cdn.pixabay.com/photo/2014/10/04/22/29/monkey-474147__480.png"
+    },
+    {
+      "id": 12,
+      "name": "hippo",
+      "image": "https://cdn.pixabay.com/photo/2012/05/07/02/56/hippo-47726__480.png"
+    }
+  ]
+  
