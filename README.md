@@ -1,3 +1,8 @@
+Developer:  Karen Brant
+Libraries:  React
+Title:  Clicky Game
+Instructions:  Click each picture once and get a point for each click.  But don't click the same picture twice or you will end the game.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
