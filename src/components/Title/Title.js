@@ -2,6 +2,9 @@ import React from "react";
 import "./Title.css";
 
 const Title = props => 
-    <h1 className="title jumbotron">{props.children}</h1>
+    <div className="title jumbotron message">
+        {props.children}
+        {/* <p>{props.children}</p> */}
+    </div>
 
 export default Title;
